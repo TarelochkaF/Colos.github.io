@@ -3,9 +3,9 @@
 body {
 	font-family: Poppins, serif;
      	background: #ffffff;
-	background: -webkit-radial-gradient(ellipse farthest-side at center center, #ffffff 0%, #fafaf5 50%, #e3e3e3 100%);
-	background: -moz-radial-gradient(ellipse farthest-side at center center, #ffffff 0%, #fafaf5 50%, #e3e3e3 100%);
-	background: radial-gradient(ellipse farthest-side at center center, #ffffff 0%, #fafaf5 50%, #e3e3e3 100%);
+	background: -webkit-linear-gradient(to bottom, #ffffff 0%, #f5f5f5 50%, #e3e3e3 100%);
+	background: -moz-linear-gradient(to bottom, #ffffff 0%, #f5f5f5 50%, #e3e3e3 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #f5f5f5 50%, #e3e3e3 100%);
    
 }
 
@@ -54,14 +54,17 @@ font-style: normal;
     color: rgb(76, 82, 80);
     margin: auto auto;
     font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+	font-weight: 400;
+	font-style: normal;
 }
 
 footer,
 .btn-outline-primary {
-    background: linear-gradient(270deg, #13ec7c 0%, #ffffff 99%);
-
+	background: #ffffff;
+	background: -webkit-linear-gradient(to bottom, #ffffff 0%, #f5f5f5 50%, #e3e3e3 100%);
+	background: -moz-linear-gradient(to bottom, #ffffff 0%, #f5f5f5 50%, #e3e3e3 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #f5f5f5 50%, #e3e3e3 100%);
+	border-top: #6e6e6e;
 }
 
 .media-links {
