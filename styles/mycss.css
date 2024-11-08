@@ -2,7 +2,10 @@
 
 body {
      font-family: Poppins, serif;
-     background: linear-gradient(0deg, #13ec7c 0%, #ffffff 99%);
+     background: #ffffff;
+	background: -webkit-radial-gradient(ellipse farthest-side at center center, #ffffff 0%, #dcdcdc 100%);
+	background: -moz-radial-gradient(ellipse farthest-side at center center, #ffffff 0%, #dcdcdc 100%);
+	background: radial-gradient(ellipse farthest-side at center center, #ffffff 0%, #dcdcdc 100%);
    
 }
 
