@@ -17,7 +17,7 @@ font-style: normal;
 }
 
 .nav-link {
-	font-family: Poppins, serif;
+	font-family: "Poppins";
     color: rgb(53, 58, 57);
 }
 
@@ -54,10 +54,10 @@ font-style: normal;
 	color: rgb(53, 58, 57);
 }
 
-.btn btn-primary {
+.card.btn btn-primary a{
 	text-decoration: None;
 	color: rgb(53, 58, 57);
-	background: e3e3e3;
+	background: #e3e3e3;
 }
 
 button a{
