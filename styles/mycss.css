@@ -16,6 +16,12 @@ font-style: normal;
 
 }
 
+.nav-item {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
 .nav-link {
 	font-family: "Poppins";
     color: rgb(53, 58, 57);
